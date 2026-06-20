@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f1f5f9; color: #1f2937; margin: 0; padding: 0; }
+        body { font-family: Verdana, Geneva, sans-serif; background: #f1f5f9; color: #1f2937; margin: 0; padding: 0; }
         .page { max-width: 960px; margin: 32px auto; padding: 24px; }
         .card { background: white; border-radius: 12px; box-shadow: 0 12px 30px rgba(0,0,0,.08); padding: 24px; }
         .header { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
