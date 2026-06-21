@@ -69,9 +69,7 @@
                                 <td>{{ $product->stock }}</td>
                                 <td>
                                     <a href="{{ route('products.edit', $product) }}" class="button-secondary"><span class="icon">✏️</span>Editar</a>
-                                    <form action="{{ route('products.destroy', $product) }}" method="POST" onsubmit="return confirm('Deseja excluir este produto?');">
-                                        @csrf
-                                        @method('DELETE')
+                                    <form action="{{ route('products.destroy', $product) }}" method="POST" onsubmit="return confirm('Deseja excluir este produto?');"> @csrf @method('DELETE')
                                         <button type="submit" class="button-danger"><span class="icon">🗑️</span>Excluir</button>
                                     </form>
                                 </td>
